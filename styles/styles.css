@@ -1,0 +1,182 @@
+/*DO NOT Override CHANGE - Main Body Login Page*/
+body.loginpage{
+    background-image: url(../patternmasjid.png);
+    margin: 0;
+}
+/*Atur Top Navbar Login Paage */
+div.login-navbar{
+    background-color: rgb(117, 236, 87);
+    overflow: hidden;
+    float:left;
+}
+div.login-navbar a{
+    overflow: hidden;
+    float: left;
+    padding: 9px 12px;
+    text-decoration: none;
+}
+/* Menghilangkan titik unordered list*/
+div.ul{
+    list-style-type: none;
+    margin  : 0;
+    padding : 0;
+}
+/* Atur Posisi Navbar untuk Masjid Khoiru Ummah */
+a.navbarmasjid{
+    text-align: justify;
+    font-size : 12pt;
+    border-width: 100%;
+    margin : auto;
+    padding: auto;
+    text-decoration: none;
+}
+div.margin-login{
+    background-color: rgb(255, 255, 255);
+    width:280px;
+    height: 130px;
+    margin:auto;
+    padding: auto;
+    border-top: 12px solid lightcoral;
+    border-bottom: 15px solid lightcoral;
+    align-items: center;
+}
+div.loginBox{
+    display: block;
+    position:relative;
+    margin-top:15%;
+    text-align:center;
+}
+li{
+    list-style-type: none;
+}
+li.user{
+    padding: 10 0 0 0;
+    margin: 0px;
+    list-style: none;
+    height: 20px;
+}
+li.blank{
+    height: 14px;
+}
+/* Login Button Kustomisasi Animasi CSS - START SECTION*/
+.TombolLogin{
+    background-color: rgb(145, 209, 235);
+    color: black;
+    border: none;
+    position: relative;
+    padding: 4px;
+    width: 80px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.TombolLogin:hover{
+    color:rgb(233, 233, 233);
+    background-color: rgb(43, 196, 69);
+}
+.TombolDaftar{
+    background-color: rgb(145, 209, 235);
+    color: black;
+    border: none;
+    position: relative;
+    padding: 4px;
+    width: 80px;
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.TombolDaftar:hover{
+    color:red;
+    background-color:greenyellow;
+}
+
+/* Login Button Kustomisasi Animasi CSS - END SECTION */
+
+/* Cetak Laporan Data - START SECTION */
+.CetakLaporan{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.CetakPrintData{
+    background-color: burlywood;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background: url(../../patternmasjid.png);
+    /* font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: justify;
+    position: relative;
+    border: none;
+    overflow:hidden; 
+
+    Tahap Pemeriksaan Modifier CSS*/
+} 
+.CetakPrintData .SidebarCetak{
+    position: fixed;
+    height: 100vh;
+    width:180px;
+    background: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0 6px rgb(0, 205, 241);
+}
+.SidebarCetak .logo{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 6px rgb(0, 205, 241);
+}
+.SidebarCetak .logo a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 20;
+    position: relative;
+    left: 10px;
+    line-height: 50px;
+    text-decoration: none;
+}
+.SidebarCetak .SidebarMenu{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+.SidebarMenu li{
+    margin-top: 6px;
+    padding: 16px 20px;
+}
+.SidebarMenu li:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 4px rgba(250, 255, 255, 0.9);
+    background-color: rgb(97, 189, 189);
+}
+.SidebarMenu li i{
+    color: #fff;
+    padding-right:8px;
+    font-size: 18px;
+}
+.SidebarMenu li a{
+    color: whitesmoke;
+    font-size:17px;
+    text-decoration: none;
+}
+/* START Section Display None untuk sidebar menu */
+.SidebarMenu .MasukData{
+    display: none;
+}
+.SidebarMenu .RekapanData{
+    display: none;
+}
+/* END Section Display None untuk sidebar menu */
+.SidebarMenu .MasukData:hover{
+    display: contents;
+}
+/* Section CSS menampilkan animasi klik pada Input Data */
